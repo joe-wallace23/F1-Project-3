@@ -1,0 +1,26 @@
+.customer{
+    margin: 4rem 0 1rem 0;
+    &__images{
+        padding: 2rem;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.45)), url(/images/What-Make-imos-so-Delicious-bg-min.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 20rem;
+    }
+    &__images2{
+        padding: 2rem;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.45)), url(/images/Place-an-order-forPickup-or-delevery-bg-min.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 20rem;
+    }
+}
+.customer .col-lg-6{
+    margin-bottom: 2rem;
+}
+.customer hr{
+    border-style: none;
+    border-top: .1rem solid gray;
+}

@@ -1,0 +1,384 @@
+:root {
+  --button-color:#dc3545; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+*::before,
+*::after {
+  box-sizing: inherit; }
+
+html {
+  box-sizing: border-box; }
+
+body {
+  font-size: 62.5%;
+  font-family: 'Open Sans', sans-serif; }
+  @media (max-width: 75em) {
+    body {
+      font-size: 56.25%; } }
+  @media (max-width: 50em) {
+    body {
+      font-size: 56.25%; } }
+  @media (max-width: 56.25em) {
+    body {
+      font-size: 50%; } }
+  @media (max-width: 61.875em) {
+    body {
+      font-size: 50%; } }
+  @media (min-width: 112.5em) {
+    body {
+      font-size: 75%; } }
+
+.nav__button {
+  margin-top: .5rem;
+  margin-left: .8rem; }
+
+.nav__link {
+  font-size: 1rem;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: var(--button-color);
+  padding: 1rem 1.5rem;
+  border-radius: .3rem; }
+  .nav__link:hover {
+    color: #fff;
+    text-decoration: none; }
+  @media (max-width: 75em) {
+    .nav__link {
+      margin-left: -1rem;
+      padding: .7rem 1.5rem; } }
+
+.pumpkin__button {
+  margin-top: 2rem; }
+
+.pumpkin__link {
+  font-size: 1rem;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: var(--button-color);
+  padding: 1rem .5rem;
+  border-radius: .3rem;
+  margin-right: 1rem; }
+  .pumpkin__link:hover {
+    color: #fff;
+    text-decoration: none; }
+
+.pumpkin__linkw {
+  font-size: 1rem;
+  color: #463d40;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: #fff;
+  padding: 1rem .5rem;
+  border-radius: .3rem; }
+  .pumpkin__linkw:hover {
+    color: #463d40;
+    text-decoration: none; }
+
+.rewards__button {
+  margin-top: 2rem; }
+
+.rewards__link {
+  font-size: 1rem;
+  color: #463d40;
+  text-transform: uppercase;
+  background-color: #fff;
+  padding: 1rem 1.5rem;
+  border-radius: .2rem; }
+  .rewards__link:hover {
+    color: #463d40;
+    text-decoration: none; }
+
+.customer__link {
+  font-size: 1rem;
+  color: #fff;
+  font-weight: bold; }
+  .customer__link:hover {
+    color: #fff;
+    text-decoration: none; }
+
+.customer__buttons {
+  margin-top: 2rem; }
+
+.customer__linkg {
+  font-size: 1rem;
+  color: #fff;
+  text-transform: uppercase;
+  background-color: var(--button-color);
+  padding: 1rem 1.7rem;
+  border-radius: .2rem; }
+  .customer__linkg:hover {
+    color: #fff;
+    text-decoration: none; }
+
+.pumpkin__content h1 {
+  font-size: 1.5rem;
+  font-family: 'Lobster', cursive;
+  color: #fff;
+  text-transform: capitalize;
+  padding-bottom: 1.2rem; }
+
+.pumpkin__content h2 {
+  font-size: 2.3rem;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: .1rem; }
+
+.pumpkin__content p {
+  font-size: .9rem;
+  color: #fff;
+  line-height: 1.8rem; }
+
+.meals__content p.bgM {
+  font-size: 1.5rem;
+  color: #fff;
+  text-transform: capitalize;
+  font-weight: bold; }
+
+.meals__content p {
+  margin-bottom: .4rem; }
+
+.meals__content p.price {
+  font-size: 2rem;
+  color: #fff;
+  text-transform: capitalize;
+  font-weight: bold; }
+
+.meals__content p.details {
+  font-size: 1.1rem;
+  color: #fff;
+  line-height: 1.7rem; }
+
+.rewards__content h2 {
+  font-size: 2.5rem;
+  color: #fff;
+  font-weight: bold; }
+
+.rewards__content p {
+  font-size: 1.2rem;
+  color: #fff;
+  margin-top: 1rem; }
+
+.customer__content h3 {
+  font-size: 2.1rem;
+  color: #fff;
+  font-weight: bold;
+  padding-bottom: .5rem; }
+
+.customer__content p {
+  font-size: 1rem;
+  color: #fff; }
+
+.bottom__title p {
+  font-size: 1.3rem;
+  color: #463d40;
+  font-weight: bold;
+  margin-bottom: .4rem; }
+
+.bottom__list {
+  list-style: none; }
+
+.bottom__item {
+  padding-bottom: .2rem; }
+
+.bottom__link {
+  font-size: .9rem;
+  color: #463d40; }
+  .bottom__link:hover {
+    color: var(--button-color);
+    border-bottom: 0.1rem solid var(--button-color);
+    text-decoration: none; }
+
+.bottom__content p.square {
+  font-size: 1.1rem;
+  color: #463d40;
+  text-transform: capitalize;
+  font-family: 'Lobster', cursive;
+  margin-bottom: .2rem; }
+
+.bottom__content p.conntected {
+  font-size: 1.2rem;
+  color: #463d40;
+  font-weight: bold;
+  text-transform: uppercase; }
+
+.meals {
+  margin: 2rem 0 1rem 0; }
+  .meals__images {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(/images/big-meal-deal-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 14rem;
+    border-radius: .3rem;
+    padding: 2rem; }
+  .meals__images2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(/images/New-cinnimo-special-free-bg-min.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 14rem;
+    border-radius: .3rem;
+    padding: 2rem; }
+  .meals__images3 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(/images/XL-pizza-special.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 14rem;
+    border-radius: .3rem;
+    padding: 2rem; }
+
+.meals .col-lg-4 {
+  margin-bottom: 2rem; }
+
+.rewards {
+  margin: 1rem 0;
+  padding: 8rem 0;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(/images/Compare.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%; }
+
+.customer {
+  margin: 4rem 0 1rem 0; }
+  .customer__images {
+    padding: 2rem;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.45)), url(/images/What-Make-imos-so-Delicious-bg-min.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 20rem; }
+  .customer__images2 {
+    padding: 2rem;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.45)), url(/images/Place-an-order-forPickup-or-delevery-bg-min.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 20rem; }
+
+.customer .col-lg-6 {
+  margin-bottom: 2rem; }
+
+.customer hr {
+  border-style: none;
+  border-top: .1rem solid gray; }
+
+.bottom {
+  position: relative;
+  padding-top: 2rem;
+  padding-bottom: 3rem; }
+  .bottom__background {
+    padding: 4rem 1rem;
+    background-color: #edece7;
+    height: 100%; }
+  .bottom__lists {
+    list-style: none; }
+  .bottom__items {
+    display: inline-block; }
+  .bottom__items:not(:last-child) {
+    margin-right: .7rem; }
+  .bottom__icon {
+    width: 1.5rem;
+    height: 1.5rem;
+    fill: #463d40; }
+    .bottom__icon:hover {
+      opacity: .8; }
+
+.copy {
+  position: relative;
+  background-color: #343a40;
+  padding: 1.5rem 0 0 0; }
+  .copy__copylist {
+    list-style: none; }
+  .copy__copyitem {
+    display: inline-block; }
+  .copy__copyitem:not(:last-child) {
+    margin-right: 1rem; }
+  .copy__copypara {
+    font-size: 1rem;
+    color: #c1c0c0;
+    font-weight: bold; }
+  .copy__copylink {
+    font-size: 1rem;
+    color: #c1c0c0;
+    font-weight: bold; }
+    .copy__copylink:hover {
+      color: #edece7;
+      text-decoration: none;
+      border-bottom: .1rem solid #edece7; }
+
+.bottom .col-lg-3 {
+  margin-bottom: 2rem; }
+
+.pumpkin {
+  margin-top: 3rem;
+  padding: 15rem 0;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/images/New-pumpkin-spice-cinnmos-bg-min.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40rem; }
+
+.navbar {
+  background-color: #fff;
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+  padding-bottom: 1rem; }
+  .navbar-brand img {
+    height: 4.5rem; }
+
+.nav-link {
+  font-size: 1rem;
+  color: #000 !important;
+  text-transform: uppercase; }
+  .nav-link:hover {
+    color: var(--button-color) !important;
+    border-bottom: 0.1rem solid var(--button-color); }
+
+.dropdown:hover > .dropdown-menu {
+  display: inline-block; }
+
+.dropdown .dropdown-item:not(:last-child) {
+  border-bottom: .1rem solid lightgray; }
+
+.dropdown .dropdown-item {
+  font-size: 1rem;
+  color: #000;
+  text-transform: uppercase;
+  padding: .7rem 1rem; }
+  .dropdown .dropdown-item:hover {
+    color: var(--button-color);
+    border-bottom: 0.1rem solid var(--button-color);
+    background-color: transparent; }
+
+.navbar-toggler {
+  border: none !important; }
+
+.toggler-btn {
+  border: 2px solid #000;
+  padding: 5px;
+  transition: all 2s ease; }
+
+.bar {
+  width: 30px;
+  height: 3px;
+  margin: 5px;
+  background: #000;
+  transition: all 0.5s ease; }
+
+.change .bar1 {
+  transform: rotate(-45deg) translate(-5px, 6px); }
+
+.change .bar2 {
+  opacity: 0; }
+
+.change .bar3 {
+  transform: rotate(45deg) translate(-5px, -8px); }
